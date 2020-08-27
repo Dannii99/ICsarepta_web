@@ -1,0 +1,85 @@
+body {
+  line-height: 1 !important;
+}
+
+button, input, select {
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+}
+
+.mx-w-1500 {
+  max-width: 1500px !important;
+  width: 100% !important;
+}
+
+/* color */
+
+.white {
+  color: #FFFFFF;
+}
+
+
+/* background-color */
+
+.bg-blue {
+  background-color: #233dff;
+}
+
+/* font */
+
+.fw-bold {
+  font-weight: bold;
+}
+
+fz-12 {
+  font-size: 12px;
+}
+
+fz-16 {
+  font-size: 16px;
+}
+
+fz-18 {
+  font-size: 18px;
+}
+
+fz-20 {
+  font-size: 20px;
+}
+
+fz-23 {
+  font-size: 23px;
+}
+
+fz-25 {
+  font-size: 25px;
+}
+
+fz-30 {
+  font-size: 30px;
+}
+
+.img-home {
+  background-image: url(../img/fon4.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.img-home::after {
+  content: "";
+  width: 100%;
+  height: 90.1vh;
+  background-color: rgba(38, 0, 255, 0.39);
+  position: absolute;
+  z-index: 1;
+}
